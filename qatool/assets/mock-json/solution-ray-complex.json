@@ -1,0 +1,2421 @@
+{
+  "solutionid": "ray-complex",
+  "startdatetime": "2017-11-04T00:00:00",
+  "enddatetime": "2017-11-08T00:00:00",
+  "solutionname": "RayDevOne + RayDevTwo : New York : 2017-11-04",
+  "isfavorite": false,
+  "hasbookedversion": false,
+  "totalprice": 3893.2,
+  "totalcmprice": 0,
+  "totalpenalty": 0,
+  "totalfaredifference": 0,
+  "totalhgbfee": 0,
+  "cancheckout": true,
+  "passengers": [
+    {
+      "paxguid": "64972c4e-23aa-4484-a288-773f3ac0116c",
+      "name": "RayDevOne",
+      "totalflightpenalty": 0,
+      "totalhotelpenalty": 0,
+      "totalpenalty": 0,
+      "totalflightprice": 154.31,
+      "totalhotelprice": 1792.29,
+      "totalprice": 1946.6,
+      "totalcmprice": 0,
+      "totalflightcredit": 0,
+      "totalproposedflightcost": 0,
+      "totalfaredifference": 0,
+      "avatarurl": "http://s3.amazonaws.com/hellogbye-profile-images/64972c4e-23aa-4484-a288-773f3ac0116c_Avatar.png?636238019734631426",
+      "itineraryitems": [
+        "195c2cda-b402-4291-b4ee-e4b990ee8ead",
+        "5f945fe5-33ad-4a05-8eaf-47e571184167"
+      ],
+      "itineraryitemswithdates": [
+        {
+          "itemid": "195c2cda-b402-4291-b4ee-e4b990ee8ead",
+          "startdatetime": "2017-11-04T18:15:00",
+          "enddatetime": "2017-11-04T19:42:00"
+        },
+        {
+          "itemid": "5f945fe5-33ad-4a05-8eaf-47e571184167",
+          "startdatetime": "2017-11-04T00:00:00",
+          "enddatetime": "2017-11-08T00:00:00"
+        }
+      ],
+      "paxstatus": "Organizer",
+      "feedetails": {
+        "fee": 0,
+        "ispaid": false,
+        "consentgiven": false,
+        "feetype": "None",
+        "totalfee": 0
+      }
+    },
+    {
+      "paxguid": "b3735775-d89c-4859-aae2-a6f100f432d6",
+      "name": "RayDevTwo",
+      "totalflightpenalty": 0,
+      "totalhotelpenalty": 0,
+      "totalpenalty": 0,
+      "totalflightprice": 154.31,
+      "totalhotelprice": 1792.29,
+      "totalprice": 1946.6,
+      "totalcmprice": 0,
+      "totalflightcredit": 0,
+      "totalproposedflightcost": 0,
+      "totalfaredifference": 0,
+      "itineraryitems": [
+        "734dc013-812d-488e-aa5b-07e70668b72e",
+        "01ec862b-ad50-42dc-96db-9664f864db94"
+      ],
+      "itineraryitemswithdates": [
+        {
+          "itemid": "734dc013-812d-488e-aa5b-07e70668b72e",
+          "startdatetime": "2017-11-04T18:15:00",
+          "enddatetime": "2017-11-04T19:42:00"
+        },
+        {
+          "itemid": "01ec862b-ad50-42dc-96db-9664f864db94",
+          "startdatetime": "2017-11-04T00:00:00",
+          "enddatetime": "2017-11-08T00:00:00"
+        }
+      ],
+      "paxstatus": "Companion",
+      "feedetails": {
+        "fee": 0,
+        "ispaid": false,
+        "consentgiven": false,
+        "feetype": "None",
+        "totalfee": 0
+      }
+    }
+  ],
+  "items": {
+    "195c2cda-b402-4291-b4ee-e4b990ee8ead": {
+      "$type": "GTARESTServices.Web.Api.Models.Itinerary.ItineraryResponse.FlightResponseWithLegs, GTARESTServices.Web.Api",
+      "legs": [
+        {
+          "$type": "GTARESTServices.Web.Api.Models.Itinerary.ItineraryResponse.FlightLegDto, GTARESTServices.Web.Api",
+          "type": "Leg",
+          "parentguid": "195c2cda-b402-4291-b4ee-e4b990ee8ead",
+          "guid": "ebb99117-faba-4bef-9dc7-e2959d1e9996",
+          "flightnumber": "722",
+          "flighttime": "1h 27m",
+          "departure": "2017-11-04T18:15:00",
+          "departuretime": "06:15 PM",
+          "arrival": "2017-11-04T19:42:00",
+          "arrivaltime": "07:42 PM",
+          "code": "K",
+          "origin": "YYZ",
+          "destination": "LGA",
+          "origincityname": "Toronto",
+          "destinationcityname": "New York",
+          "originairportname": "Pearson",
+          "destinationairportname": "La Guardia",
+          "origincountry": "CA",
+          "destinationcountry": "US",
+          "originairportcoordinates": {
+            "latitude": 43.67722,
+            "longitude": -79.63055
+          },
+          "destinationairportcoordinates": {
+            "latitude": 40.77724,
+            "longitude": -73.8726
+          },
+          "carriercode": "AC",
+          "carriername": "Air Canada",
+          "codeshareoperator": "",
+          "carrierbaggageurl": "https://www.aircanada.com/en/travelinfo/airport/baggage/index.html",
+          "equipment": "E90",
+          "paxguid": "64972c4e-23aa-4484-a288-773f3ac0116c",
+          "ref": "00000000-0000-0000-0000-000000000000",
+          "seq": 0,
+          "carrierbadgeurl": "https://images.trvl-media.com/media/content/expus/graphics/static_content/fusion/v0.1b/images/airlines/s/AC_sq.jpg",
+          "carrierlogourl": "http://0.omg.io/wego/image/upload/flights/airlines_rectangular/AC.png",
+          "fareclass": "Economy",
+          "farepreference": "Nonrefundable",
+          "mealpreference": "Standard",
+          "baggagepreference": "CheckedIn",
+          "changedurationindays": 365,
+          "normalizedduration": 1,
+          "layoverinfoexist": false
+        }
+      ],
+      "isalternative": false,
+      "flighttime": "1h 27m",
+      "departure": "2017-11-04T18:15:00",
+      "arrival": "2017-11-04T19:42:00",
+      "origin": "YYZ",
+      "destination": "LGA",
+      "origincityname": "Toronto",
+      "destinationcityname": "New York",
+      "originairportname": "Pearson",
+      "destinationairportname": "La Guardia",
+      "origincountry": "CA",
+      "destinationcountry": "US",
+      "originairportcoordinates": {
+        "latitude": 43.67722,
+        "longitude": -79.63055
+      },
+      "destinationairportcoordinates": {
+        "latitude": 40.77724,
+        "longitude": -73.8726
+      },
+      "operator": "AC",
+      "operatorname": "Air Canada",
+      "equipment": "E90",
+      "fareclass": "Economy",
+      "farepreference": "Nonrefundable",
+      "mealpreference": "Standard",
+      "baggagepreference": "CheckedIn",
+      "cost": 154.31,
+      "tax": 87.31,
+      "traveltime": "1h 27m",
+      "paxguid": "64972c4e-23aa-4484-a288-773f3ac0116c",
+      "travelsector": "domestic",
+      "primaryguid": "195c2cda-b402-4291-b4ee-e4b990ee8ead",
+      "normalizedduration": 1,
+      "paymentprocessingstate": "UNPAID",
+      "paymentstatustimestamp": "2017-10-23T19:05:50",
+      "isaddedorupdatedbychangemanagement": false,
+      "nodeid": 2,
+      "isfeasible": false,
+      "dropdownoptions": [
+        {
+          "id": "195c2cda-b402-4291-b4ee-e4b990ee8ead",
+          "fareclass": "Economy",
+          "farepreference": "Nonrefundable",
+          "cost": 154.31,
+          "isalternative": false
+        },
+        {
+          "id": "df08a2bf-2a47-4d24-bf00-6373aa03e779",
+          "fareclass": "Business",
+          "farepreference": "Nonrefundable",
+          "cost": 356.96,
+          "isalternative": true
+        },
+        {
+          "id": "cd6efcf1-c2b1-4b38-b61f-7543e9f68427",
+          "fareclass": "Economy",
+          "farepreference": "Refundable",
+          "cost": 871.46,
+          "isalternative": true
+        },
+        {
+          "id": "0b20aad8-ecca-4ae9-b35f-b2f1914701e3",
+          "fareclass": "Business",
+          "farepreference": "Refundable",
+          "cost": 1034.21,
+          "isalternative": true
+        }
+      ],
+      "type": "flight",
+      "dateorder": "2017-11-04T18:15:00",
+      "guid": "195c2cda-b402-4291-b4ee-e4b990ee8ead",
+      "rank": 21012698.463511815392294851944,
+      "penalty": 0,
+      "currency": "CAD",
+      "datasource": "TP",
+      "isavailable": true
+    },
+    "734dc013-812d-488e-aa5b-07e70668b72e": {
+      "$type": "GTARESTServices.Web.Api.Models.Itinerary.ItineraryResponse.FlightResponseWithLegs, GTARESTServices.Web.Api",
+      "legs": [
+        {
+          "$type": "GTARESTServices.Web.Api.Models.Itinerary.ItineraryResponse.FlightLegDto, GTARESTServices.Web.Api",
+          "type": "Leg",
+          "parentguid": "734dc013-812d-488e-aa5b-07e70668b72e",
+          "guid": "ebb99117-faba-4bef-9dc7-e2959d1e9996",
+          "flightnumber": "722",
+          "flighttime": "1h 27m",
+          "departure": "2017-11-04T18:15:00",
+          "departuretime": "06:15 PM",
+          "arrival": "2017-11-04T19:42:00",
+          "arrivaltime": "07:42 PM",
+          "code": "K",
+          "origin": "YYZ",
+          "destination": "LGA",
+          "origincityname": "Toronto",
+          "destinationcityname": "New York",
+          "originairportname": "Pearson",
+          "destinationairportname": "La Guardia",
+          "origincountry": "CA",
+          "destinationcountry": "US",
+          "originairportcoordinates": {
+            "latitude": 43.67722,
+            "longitude": -79.63055
+          },
+          "destinationairportcoordinates": {
+            "latitude": 40.77724,
+            "longitude": -73.8726
+          },
+          "carriercode": "AC",
+          "carriername": "Air Canada",
+          "codeshareoperator": "",
+          "carrierbaggageurl": "https://www.aircanada.com/en/travelinfo/airport/baggage/index.html",
+          "equipment": "E90",
+          "paxguid": "b3735775-d89c-4859-aae2-a6f100f432d6",
+          "ref": "00000000-0000-0000-0000-000000000000",
+          "seq": 0,
+          "carrierbadgeurl": "https://images.trvl-media.com/media/content/expus/graphics/static_content/fusion/v0.1b/images/airlines/s/AC_sq.jpg",
+          "carrierlogourl": "http://0.omg.io/wego/image/upload/flights/airlines_rectangular/AC.png",
+          "fareclass": "Economy",
+          "farepreference": "Nonrefundable",
+          "mealpreference": "Standard",
+          "baggagepreference": "CheckedIn",
+          "changedurationindays": 365,
+          "normalizedduration": 1,
+          "layoverinfoexist": false
+        }
+      ],
+      "isalternative": false,
+      "flighttime": "1h 27m",
+      "departure": "2017-11-04T18:15:00",
+      "arrival": "2017-11-04T19:42:00",
+      "origin": "YYZ",
+      "destination": "LGA",
+      "origincityname": "Toronto",
+      "destinationcityname": "New York",
+      "originairportname": "Pearson",
+      "destinationairportname": "La Guardia",
+      "origincountry": "CA",
+      "destinationcountry": "US",
+      "originairportcoordinates": {
+        "latitude": 43.67722,
+        "longitude": -79.63055
+      },
+      "destinationairportcoordinates": {
+        "latitude": 40.77724,
+        "longitude": -73.8726
+      },
+      "operator": "AC",
+      "operatorname": "Air Canada",
+      "equipment": "E90",
+      "fareclass": "Economy",
+      "farepreference": "Nonrefundable",
+      "mealpreference": "Standard",
+      "baggagepreference": "CheckedIn",
+      "cost": 154.31,
+      "tax": 87.31,
+      "traveltime": "1h 27m",
+      "paxguid": "b3735775-d89c-4859-aae2-a6f100f432d6",
+      "travelsector": "domestic",
+      "primaryguid": "734dc013-812d-488e-aa5b-07e70668b72e",
+      "normalizedduration": 1,
+      "paymentprocessingstate": "UNPAID",
+      "paymentstatustimestamp": "2017-10-23T19:05:50",
+      "isaddedorupdatedbychangemanagement": false,
+      "nodeid": 5,
+      "isfeasible": false,
+      "dropdownoptions": [
+        {
+          "id": "734dc013-812d-488e-aa5b-07e70668b72e",
+          "fareclass": "Economy",
+          "farepreference": "Nonrefundable",
+          "cost": 154.31,
+          "isalternative": false
+        },
+        {
+          "id": "28848787-f1f8-49a2-9510-09fc2b26e071",
+          "fareclass": "Business",
+          "farepreference": "Nonrefundable",
+          "cost": 356.96,
+          "isalternative": true
+        },
+        {
+          "id": "9ef83380-bf2b-4c29-a679-a9350db122d0",
+          "fareclass": "Economy",
+          "farepreference": "Refundable",
+          "cost": 871.46,
+          "isalternative": true
+        },
+        {
+          "id": "e0ac6062-2279-438c-a5bb-2bc5adab07c6",
+          "fareclass": "Business",
+          "farepreference": "Refundable",
+          "cost": 1034.21,
+          "isalternative": true
+        }
+      ],
+      "type": "flight",
+      "dateorder": "2017-11-04T18:15:00",
+      "guid": "734dc013-812d-488e-aa5b-07e70668b72e",
+      "rank": 21012698.463511815392294851944,
+      "penalty": 0,
+      "currency": "CAD",
+      "datasource": "TP",
+      "isavailable": true
+    },
+    "5f945fe5-33ad-4a05-8eaf-47e571184167": {
+      "$type": "GTARESTServices.Web.Api.Models.Itinerary.ItineraryResponse.HotelResponse, GTARESTServices.Web.Api",
+      "paymentprocessingstate": "UNPAID",
+      "paymentstatustimestamp": "2017-10-23T19:05:50",
+      "hotelcode": "191783",
+      "cityname": "New York",
+      "hotelname": "Hotel on Rivington",
+      "starrating": 4,
+      "shortdescription": "Hotel on Rivington, an LES hotel, is in the Lower East Side neighborhood of Manhattan. Soho is 1 km from the property and East Village is 1.2 km away. Little Italy is 1.1 km away. Some of the rooms at Hotel on Rivington are fitted with a balcony, tub, steam shower and/or floor-to-ceiling glass walls. The property is designed by architects Grzywinski + Pons. The property has a coastal Mediterranean restaurant onsite, called Café Medi. Guests can dine at the Crudo Bar, the atrium dining room or on the sidewalk patio. The Juice Press serves cold-pressed juices and raw foods for the health-conscious. New York University is 1.6 km away and Tenement Museum is 322 metres away.<br /><br />Please note, complimentary coffee, tea and wine with fresh fruits are available from 07:00 until 18:00 daily.<br /><br />Please note that extra beds are allowed in King Rooms only. Charges apply. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply. If cancelled or modified up to 2 days before date of arrival,  no fee will be charged. If cancelled or modified later or in case of no-show, 100 percent of the first night will be charged.<br /> All children are welcome. There is no capacity for extra beds in the room.<br /> When booking more than 8 rooms, different policies and additional supplements may apply.  WiFi is available in all areas and is free of charge.  Public parking is possible on site (reservation is not needed) and costs  USD 70 per  day.  Pets are allowed. No extra charges.  No deposit will be charged.  The hotel reserves the right to pre-authorise credit cards prior to arrival. 14.75 % Tax is excluded. US$ 3.50 City tax per night is excluded.",
+      "postalcode": "NY 10002",
+      "latitude": 40.7198257,
+      "longitude": -73.98807,
+      "address1": "107 Rivington Street",
+      "image": "http://aff.bstatic.com/images/hotel/max500/454/45455670.jpg",
+      "allimages": [
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/454/45455670.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/891/89127394.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/891/89127423.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/891/89127505.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/891/89127630.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/451/45165414.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/454/45455655.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/451/45165289.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/451/45165281.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/454/45455551.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/451/45165264.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/454/45457242.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/451/45165254.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/451/45165251.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/216/21671263.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/451/45165282.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/374/37417957.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/451/45165261.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290118.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290119.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290121.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290124.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290125.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290126.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290132.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290134.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290150.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290152.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290154.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290162.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290166.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290167.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290168.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290169.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290173.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290175.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290180.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290183.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290186.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290190.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290256.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290193.jpg",
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "amenities": [
+        {
+          "amenity": "Minibar",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "Safety Deposit Box",
+          "image": "general.png"
+        },
+        {
+          "amenity": "Pay-per-view Channels",
+          "image": "cable-t-v-service.png"
+        },
+        {
+          "amenity": "Telephone",
+          "image": "phone.png"
+        },
+        {
+          "amenity": "Air conditioning",
+          "image": "in-room-climate-control-air-conditioning.png"
+        },
+        {
+          "amenity": "Hairdryer",
+          "image": "bathtub-or-shower-copy.png"
+        },
+        {
+          "amenity": "Iron",
+          "image": "ironing-board.png"
+        },
+        {
+          "amenity": "Bathrobe",
+          "image": "bathtub-or-shower-copy.png"
+        },
+        {
+          "amenity": "Radio",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "Desk",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "Ironing Facilities",
+          "image": "ironing-board.png"
+        },
+        {
+          "amenity": "Seating Area",
+          "image": "general-hotel-information.png"
+        },
+        {
+          "amenity": "Free toiletries",
+          "image": "bathtub-or-shower-copy.png"
+        },
+        {
+          "amenity": "Toilet",
+          "image": "bathtub-or-shower-copy.png"
+        },
+        {
+          "amenity": "Bathroom",
+          "image": "bathtub-or-shower-copy.png"
+        },
+        {
+          "amenity": "Heating",
+          "image": "in-room-climate-control-air-conditioning.png"
+        },
+        {
+          "amenity": "Cable Channels",
+          "image": "cable-t-v-service.png"
+        },
+        {
+          "amenity": "Bath or Shower",
+          "image": "bathtub-or-shower-copy.png"
+        },
+        {
+          "amenity": "Carpeted",
+          "image": "general-hotel-information.png"
+        },
+        {
+          "amenity": "Laptop safe",
+          "image": "in-room-safe-laptop-compatible.png"
+        },
+        {
+          "amenity": "Flat-screen TV",
+          "image": "cable-t-v-service.png"
+        },
+        {
+          "amenity": "Sofa",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "View",
+          "image": "general-hotel-information.png"
+        },
+        {
+          "amenity": "Wake-up service",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "Alarm clock",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "iPod dock",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "Wardrobe/Closet",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "City view",
+          "image": "general-hotel-information.png"
+        },
+        {
+          "amenity": "Towels",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "Linen",
+          "image": "premium-bedding.png"
+        }
+      ],
+      "minimumamount": 1686.76,
+      "maximumamount": 2117.47,
+      "checkin": "2017-11-04T00:00:00",
+      "checkout": "2017-11-08T00:00:00",
+      "country": "US",
+      "stateprovince": "NY",
+      "paxguid": "64972c4e-23aa-4484-a288-773f3ac0116c",
+      "defaultroomguid": "78062fc2-c5ae-418b-a05f-a327bb8e66d3",
+      "rooms": [
+        {
+          "roomtype": "Double Room with Two Double Beds - Non-refundable",
+          "code": "19178307_91912323_0_0_0",
+          "description": "",
+          "bedtypes": [],
+          "cost": 1792.29,
+          "nightlyrate": [
+            448.0725,
+            448.0725,
+            448.0725,
+            448.0725
+          ],
+          "averagerate": 448.0725,
+          "surchargetotal": 0,
+          "surchargetotalusd": 0,
+          "nightlyrateusd": [
+            355.5,
+            355.5,
+            355.5,
+            355.5
+          ],
+          "averagerateusd": 355.5,
+          "totalbeforetaxusd": 1422,
+          "costusd": 1422,
+          "hotelcurrencycode": "USD",
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/451/45165282.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/374/37417957.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290118.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290125.jpg"
+          ],
+          "isalternative": false,
+          "totalbeforetax": 1792.29,
+          "refundability": "Non Refundable",
+          "cancellationpolicy": "Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged. ",
+          "maxroomoccupancy": 4,
+          "checkin": "0001-01-01T00:00:00",
+          "checkout": "0001-01-01T00:00:00",
+          "ispromotional": false,
+          "type": "hotelroom",
+          "dateorder": "0001-01-01T00:00:00",
+          "guid": "78062fc2-c5ae-418b-a05f-a327bb8e66d3",
+          "rank": 0,
+          "penalty": 0,
+          "datasource": "BC",
+          "isavailable": true,
+          "feescollectedbyhoteldaily": 70.5025,
+          "feescollectedbyhoteltotal": 282.01,
+          "feescollectedbyhotel": [
+            {
+              "description": "City tax",
+              "amount": "17.65"
+            },
+            {
+              "description": "Tax",
+              "amount": "264.36"
+            }
+          ]
+        },
+        {
+          "roomtype": "2 DOUBLE BEDS - SMOKING OR NONSMOKING ROOM",
+          "code": "757020_OPAQUE_OPAQUE|77953571-32e0-1c07-1c64-6c66ebfc2338",
+          "description": "2 DOUBLE BEDS - SMOKING OR NONSMOKING ROOM",
+          "bedtypes": [],
+          "cost": 1686.76,
+          "nightlyrate": [
+            336,
+            336,
+            336,
+            336
+          ],
+          "averagerate": 336,
+          "surchargetotal": 342.76,
+          "surchargetotalusd": 271.95,
+          "nightlyrateusd": [
+            266.58,
+            266.58,
+            266.58,
+            266.58
+          ],
+          "averagerateusd": 266.58,
+          "totalbeforetaxusd": 1066.32,
+          "costusd": 1338.27,
+          "hotelcurrencycode": "USD",
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/454/45455670.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/216/21671263.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/374/37417957.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165251.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165254.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165261.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165264.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165281.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165282.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165289.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165414.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/454/45455551.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/454/45455655.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/454/45457242.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290118.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290119.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290121.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290124.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290125.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290126.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290132.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290134.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290150.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290152.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290154.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290162.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290166.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290167.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290168.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290169.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290173.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290175.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290180.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290183.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290186.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290190.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290193.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290256.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/891/89127394.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/891/89127423.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/891/89127505.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/891/89127630.jpg"
+          ],
+          "isalternative": true,
+          "totalbeforetax": 1344,
+          "refundability": "Non Refundable",
+          "cancellationpolicy": "All rooms will accommodate up to 2 people. Requests for bed types (King, Queen, 2 Doubles, etc.) or other request(including preferences for smoking or non-smoking rooms) should be requested through your confirmed hotel and cannot be guaranteed.",
+          "maxroomoccupancy": 2,
+          "checkin": "0001-01-01T00:00:00",
+          "checkout": "0001-01-01T00:00:00",
+          "ispromotional": true,
+          "type": "hotelroom",
+          "dateorder": "0001-01-01T00:00:00",
+          "guid": "8758f312-d82c-49f9-9d96-3a1b88523f85",
+          "rank": 0,
+          "penalty": 0,
+          "datasource": "PL",
+          "isavailable": true,
+          "feescollectedbyhoteldaily": 0,
+          "feescollectedbyhoteltotal": 0
+        },
+        {
+          "roomtype": "SMOKING OR NONSMOKING CORNER STUDIO",
+          "code": "757020_OPAQUE_OPAQUE|accb64f0-d4af-78fd-c65d-8657e988459b",
+          "description": "SMOKING OR NONSMOKING CORNER STUDIO",
+          "bedtypes": [],
+          "cost": 1783.4,
+          "nightlyrate": [
+            357,
+            357,
+            357,
+            357
+          ],
+          "averagerate": 357,
+          "surchargetotal": 355.4,
+          "surchargetotalusd": 281.97,
+          "nightlyrateusd": [
+            283.24,
+            283.24,
+            283.24,
+            283.24
+          ],
+          "averagerateusd": 283.24,
+          "totalbeforetaxusd": 1132.96,
+          "costusd": 1414.95,
+          "hotelcurrencycode": "USD",
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/454/45455670.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/216/21671263.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/374/37417957.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165251.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165254.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165261.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165264.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165281.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165282.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165289.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165414.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/454/45455551.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/454/45455655.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/454/45457242.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290118.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290119.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290121.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290124.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290125.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290126.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290132.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290134.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290150.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290152.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290154.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290162.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290166.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290167.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290168.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290169.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290173.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290175.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290180.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290183.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290186.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290190.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290193.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290256.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/891/89127394.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/891/89127423.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/891/89127505.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/891/89127630.jpg"
+          ],
+          "isalternative": true,
+          "totalbeforetax": 1428,
+          "refundability": "Non Refundable",
+          "cancellationpolicy": "All rooms will accommodate up to 2 people. Requests for bed types (King, Queen, 2 Doubles, etc.) or other request(including preferences for smoking or non-smoking rooms) should be requested through your confirmed hotel and cannot be guaranteed.",
+          "maxroomoccupancy": 2,
+          "checkin": "0001-01-01T00:00:00",
+          "checkout": "0001-01-01T00:00:00",
+          "ispromotional": true,
+          "type": "hotelroom",
+          "dateorder": "0001-01-01T00:00:00",
+          "guid": "ef90f786-f14a-4552-9005-f917af84487b",
+          "rank": 0,
+          "penalty": 0,
+          "datasource": "PL",
+          "isavailable": true,
+          "feescollectedbyhoteldaily": 0,
+          "feescollectedbyhoteltotal": 0
+        },
+        {
+          "roomtype": "King Studio - Non-refundable",
+          "code": "19178304_91912323_2_0_0",
+          "description": "",
+          "bedtypes": [],
+          "cost": 1905.72,
+          "nightlyrate": [
+            476.43,
+            476.43,
+            476.43,
+            476.43
+          ],
+          "averagerate": 476.43,
+          "surchargetotal": 0,
+          "surchargetotalusd": 0,
+          "nightlyrateusd": [
+            378,
+            378,
+            378,
+            378
+          ],
+          "averagerateusd": 378,
+          "totalbeforetaxusd": 1512,
+          "costusd": 1512,
+          "hotelcurrencycode": "USD",
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/451/45165414.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165254.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165282.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/374/37417957.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290193.jpg"
+          ],
+          "isalternative": true,
+          "totalbeforetax": 1905.72,
+          "refundability": "Non Refundable",
+          "cancellationpolicy": "Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged. ",
+          "maxroomoccupancy": 2,
+          "checkin": "0001-01-01T00:00:00",
+          "checkout": "0001-01-01T00:00:00",
+          "ispromotional": false,
+          "type": "hotelroom",
+          "dateorder": "0001-01-01T00:00:00",
+          "guid": "93315377-4d21-4807-bf75-9cd3f31fea57",
+          "rank": 0,
+          "penalty": 0,
+          "datasource": "BC",
+          "isavailable": true,
+          "feescollectedbyhoteldaily": 74.685,
+          "feescollectedbyhoteltotal": 298.74,
+          "feescollectedbyhotel": [
+            {
+              "description": "Tax",
+              "amount": "281.09"
+            },
+            {
+              "description": "City tax",
+              "amount": "17.65"
+            }
+          ]
+        },
+        {
+          "roomtype": "Double Room with Two Double Beds",
+          "code": "19178307_99282839_0_0_0",
+          "description": "",
+          "bedtypes": [],
+          "cost": 1991.43,
+          "nightlyrate": [
+            497.8575,
+            497.8575,
+            497.8575,
+            497.8575
+          ],
+          "averagerate": 497.8575,
+          "surchargetotal": 0,
+          "surchargetotalusd": 0,
+          "nightlyrateusd": [
+            395,
+            395,
+            395,
+            395
+          ],
+          "averagerateusd": 395,
+          "totalbeforetaxusd": 1580,
+          "costusd": 1580,
+          "hotelcurrencycode": "USD",
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/451/45165282.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/374/37417957.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290118.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290125.jpg"
+          ],
+          "isalternative": true,
+          "totalbeforetax": 1991.43,
+          "refundability": "Refundable",
+          "cancellationpolicy": "If cancelled or modified up to 2 days before date of arrival,  no fee will be charged. If cancelled or modified later or in case of no-show, 100 percent of the first night will be charged.\n",
+          "maxroomoccupancy": 4,
+          "checkin": "0001-01-01T00:00:00",
+          "checkout": "0001-01-01T00:00:00",
+          "ispromotional": false,
+          "type": "hotelroom",
+          "dateorder": "0001-01-01T00:00:00",
+          "guid": "79d04577-a0bb-4fe3-b87f-4f6f665d13c8",
+          "rank": 0,
+          "penalty": 0,
+          "datasource": "BC",
+          "isavailable": true,
+          "feescollectedbyhoteldaily": 77.8475,
+          "feescollectedbyhoteltotal": 311.39,
+          "feescollectedbyhotel": [
+            {
+              "description": "Tax",
+              "amount": "293.74"
+            },
+            {
+              "description": "City tax",
+              "amount": "17.65"
+            }
+          ]
+        },
+        {
+          "roomtype": "King Studio",
+          "code": "19178304_99282839_2_0_0",
+          "description": "",
+          "bedtypes": [],
+          "cost": 2117.47,
+          "nightlyrate": [
+            529.3675,
+            529.3675,
+            529.3675,
+            529.3675
+          ],
+          "averagerate": 529.3675,
+          "surchargetotal": 0,
+          "surchargetotalusd": 0,
+          "nightlyrateusd": [
+            420,
+            420,
+            420,
+            420
+          ],
+          "averagerateusd": 420,
+          "totalbeforetaxusd": 1680,
+          "costusd": 1680,
+          "hotelcurrencycode": "USD",
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/451/45165414.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165254.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165282.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/374/37417957.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290193.jpg"
+          ],
+          "isalternative": true,
+          "totalbeforetax": 2117.47,
+          "refundability": "Refundable",
+          "cancellationpolicy": "If cancelled or modified up to 2 days before date of arrival,  no fee will be charged. If cancelled or modified later or in case of no-show, 100 percent of the first night will be charged.\n",
+          "maxroomoccupancy": 2,
+          "checkin": "0001-01-01T00:00:00",
+          "checkout": "0001-01-01T00:00:00",
+          "ispromotional": false,
+          "type": "hotelroom",
+          "dateorder": "0001-01-01T00:00:00",
+          "guid": "0b8d2bab-53f6-4660-ac32-f8fda1b6b2ac",
+          "rank": 0,
+          "penalty": 0,
+          "datasource": "BC",
+          "isavailable": true,
+          "feescollectedbyhoteldaily": 82.495,
+          "feescollectedbyhoteltotal": 329.98,
+          "feescollectedbyhotel": [
+            {
+              "description": "City tax",
+              "amount": "17.65"
+            },
+            {
+              "description": "Tax",
+              "amount": "312.33"
+            }
+          ]
+        }
+      ],
+      "isalternative": false,
+      "hasalternative": true,
+      "occupants": [
+        {
+          "id": "64972c4e-23aa-4484-a288-773f3ac0116c"
+        }
+      ],
+      "isaddedorupdatedbychangemanagement": false,
+      "nodeid": 6,
+      "alternativehotel": {
+        "paymentprocessingstate": "UNPAID",
+        "hotelcode": "700256870",
+        "cityname": "New York City",
+        "hotelname": "Hotel On Rivington",
+        "starrating": 4,
+        "shortdescription": "<p><b>Age Restriction Disclosure:</b> <br />The reservation holder must be 21 years of age or older.</p><p><b>Guarantee Policy:</b> <br />Reservation is guaranteed for arrival on the confirmed check-in date only. If you don't check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance the remaining portion of your reservation will be canceled and you will not be entitled to a refund.</p><p><b>Room Charge Disclosure:</b> <br />Your credit card is charged the total cost at time of purchase. Prices and room availability are not guaranteed until full payment is received.</p><p><b>Room Occupancy Disclosure:</b> <br />All rooms accommodate two guests. Special needs, bed type or other requests are at the discretion of the confirmed hotel. Please contact the hotel directly for availability.</p><p><b>Check-in Policy:</b> <br />The reservation holder must present a valid photo ID and credit card at check-in.  The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These charges may be mandatory (e.g., resort fees) or optional (parking, phone calls or mini-bar charges) and are not included in the room rate.</p><p><b>Cancellation Policy:</b> <br />For the room type and rate that you've selected, you are not allowed to change or cancel your reservation. If you cancel your room, you will still be charged for the full reservation amount.</p><p><b>Pets Policy:</b> <br />The Rivingt welcomes pets. Pet waiver required up checking in.</p>",
+        "postalcode": "10002",
+        "latitude": 40.7199936,
+        "longitude": -73.98798,
+        "address1": "107 Rivington Street",
+        "image": "http://secure.rezserver.com/img/thumbs/hotel/57/5706905.jpg",
+        "allimages": [],
+        "amenities": [
+          {
+            "amenityid": "2",
+            "amenity": "Business Center",
+            "image": "business-meetings.png"
+          },
+          {
+            "amenityid": "9",
+            "amenity": "Fitness Center or Spa",
+            "image": "fitness-center.png"
+          },
+          {
+            "amenityid": "12",
+            "amenity": "No Smoking Rooms/Facilities",
+            "image": "non-smoking-rooms.png"
+          },
+          {
+            "amenityid": "14",
+            "amenity": "Restaurant",
+            "image": "restaurant.png"
+          }
+        ],
+        "minimumamount": 1686.76,
+        "maximumamount": 1783.4,
+        "checkin": "2017-11-04T00:00:00",
+        "checkout": "2017-11-08T12:00:00",
+        "country": "US",
+        "stateprovince": "NY",
+        "paxguid": "00000000-0000-0000-0000-000000000000",
+        "defaultroomguid": "8758f312-d82c-49f9-9d96-3a1b88523f85",
+        "rooms": [
+          {
+            "roomtype": "2 DOUBLE BEDS - SMOKING OR NONSMOKING ROOM",
+            "code": "757020_OPAQUE_OPAQUE|77953571-32e0-1c07-1c64-6c66ebfc2338",
+            "description": "2 DOUBLE BEDS - SMOKING OR NONSMOKING ROOM",
+            "bedtypes": [],
+            "cost": 1686.76,
+            "nightlyrate": [
+              336,
+              336,
+              336,
+              336
+            ],
+            "averagerate": 336,
+            "surchargetotal": 342.76,
+            "surchargetotalusd": 271.95,
+            "nightlyrateusd": [
+              266.58,
+              266.58,
+              266.58,
+              266.58
+            ],
+            "averagerateusd": 266.58,
+            "totalbeforetaxusd": 1066.32,
+            "costusd": 1338.27,
+            "hotelcurrencycode": "USD",
+            "images": [
+              "http://aff.bstatic.com/images/hotel/max500/454/45455670.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/216/21671263.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/374/37417957.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165251.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165254.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165261.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165264.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165281.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165282.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165289.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165414.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/454/45455551.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/454/45455655.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/454/45457242.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290118.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290119.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290121.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290124.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290125.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290126.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290132.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290134.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290150.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290152.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290154.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290162.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290166.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290167.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290168.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290169.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290173.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290175.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290180.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290183.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290186.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290190.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290193.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290256.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/891/89127394.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/891/89127423.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/891/89127505.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/891/89127630.jpg"
+            ],
+            "isalternative": false,
+            "totalbeforetax": 1344,
+            "refundability": "Non Refundable",
+            "cancellationpolicy": "All rooms will accommodate up to 2 people. Requests for bed types (King, Queen, 2 Doubles, etc.) or other request(including preferences for smoking or non-smoking rooms) should be requested through your confirmed hotel and cannot be guaranteed.",
+            "maxroomoccupancy": 2,
+            "checkin": "0001-01-01T00:00:00",
+            "checkout": "0001-01-01T00:00:00",
+            "ispromotional": true,
+            "type": "hotelroom",
+            "dateorder": "0001-01-01T00:00:00",
+            "guid": "8758f312-d82c-49f9-9d96-3a1b88523f85",
+            "rank": 0,
+            "penalty": 0,
+            "datasource": "PL",
+            "isavailable": true,
+            "feescollectedbyhoteldaily": 0,
+            "feescollectedbyhoteltotal": 0
+          },
+          {
+            "roomtype": "SMOKING OR NONSMOKING CORNER STUDIO",
+            "code": "757020_OPAQUE_OPAQUE|accb64f0-d4af-78fd-c65d-8657e988459b",
+            "description": "SMOKING OR NONSMOKING CORNER STUDIO",
+            "bedtypes": [],
+            "cost": 1783.4,
+            "nightlyrate": [
+              357,
+              357,
+              357,
+              357
+            ],
+            "averagerate": 357,
+            "surchargetotal": 355.4,
+            "surchargetotalusd": 281.97,
+            "nightlyrateusd": [
+              283.24,
+              283.24,
+              283.24,
+              283.24
+            ],
+            "averagerateusd": 283.24,
+            "totalbeforetaxusd": 1132.96,
+            "costusd": 1414.95,
+            "hotelcurrencycode": "USD",
+            "images": [
+              "http://aff.bstatic.com/images/hotel/max500/454/45455670.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/216/21671263.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/374/37417957.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165251.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165254.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165261.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165264.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165281.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165282.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165289.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165414.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/454/45455551.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/454/45455655.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/454/45457242.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290118.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290119.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290121.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290124.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290125.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290126.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290132.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290134.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290150.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290152.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290154.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290162.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290166.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290167.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290168.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290169.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290173.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290175.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290180.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290183.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290186.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290190.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290193.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290256.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/891/89127394.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/891/89127423.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/891/89127505.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/891/89127630.jpg"
+            ],
+            "isalternative": true,
+            "totalbeforetax": 1428,
+            "refundability": "Non Refundable",
+            "cancellationpolicy": "All rooms will accommodate up to 2 people. Requests for bed types (King, Queen, 2 Doubles, etc.) or other request(including preferences for smoking or non-smoking rooms) should be requested through your confirmed hotel and cannot be guaranteed.",
+            "maxroomoccupancy": 2,
+            "checkin": "0001-01-01T00:00:00",
+            "checkout": "0001-01-01T00:00:00",
+            "ispromotional": true,
+            "type": "hotelroom",
+            "dateorder": "0001-01-01T00:00:00",
+            "guid": "ef90f786-f14a-4552-9005-f917af84487b",
+            "rank": 0,
+            "penalty": 0,
+            "datasource": "PL",
+            "isavailable": true,
+            "feescollectedbyhoteldaily": 0,
+            "feescollectedbyhoteltotal": 0
+          }
+        ],
+        "isalternative": false,
+        "hasalternative": true,
+        "occupants": [
+          {
+            "id": "00000000-0000-0000-0000-000000000000"
+          }
+        ],
+        "isaddedorupdatedbychangemanagement": false,
+        "nodeid": 0,
+        "ispromotional": true,
+        "type": "hotel",
+        "dateorder": "2017-11-04T00:00:00",
+        "guid": "36a16866-ab61-4a1e-b2e8-922af6168394",
+        "rank": 0,
+        "penalty": 0,
+        "currency": "CAD",
+        "datasource": "PL",
+        "isavailable": false
+      },
+      "ispromotional": false,
+      "type": "hotel",
+      "dateorder": "2017-11-04T00:00:00",
+      "guid": "5f945fe5-33ad-4a05-8eaf-47e571184167",
+      "rank": 1207942.3311765300106511751938,
+      "penalty": 0,
+      "currency": "CAD",
+      "datasource": "BC",
+      "isavailable": false
+    },
+    "01ec862b-ad50-42dc-96db-9664f864db94": {
+      "$type": "GTARESTServices.Web.Api.Models.Itinerary.ItineraryResponse.HotelResponse, GTARESTServices.Web.Api",
+      "paymentprocessingstate": "UNPAID",
+      "paymentstatustimestamp": "2017-10-23T19:05:50",
+      "hotelcode": "191783",
+      "cityname": "New York",
+      "hotelname": "Hotel on Rivington",
+      "starrating": 4,
+      "shortdescription": "Hotel on Rivington, an LES hotel, is in the Lower East Side neighborhood of Manhattan. Soho is 1 km from the property and East Village is 1.2 km away. Little Italy is 1.1 km away. Some of the rooms at Hotel on Rivington are fitted with a balcony, tub, steam shower and/or floor-to-ceiling glass walls. The property is designed by architects Grzywinski + Pons. The property has a coastal Mediterranean restaurant onsite, called Café Medi. Guests can dine at the Crudo Bar, the atrium dining room or on the sidewalk patio. The Juice Press serves cold-pressed juices and raw foods for the health-conscious. New York University is 1.6 km away and Tenement Museum is 322 metres away.<br /><br />Please note, complimentary coffee, tea and wine with fresh fruits are available from 07:00 until 18:00 daily.<br /><br />Please note that extra beds are allowed in King Rooms only. Charges apply. Guests are required to show a photo identification and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply. If cancelled or modified up to 2 days before date of arrival,  no fee will be charged. If cancelled or modified later or in case of no-show, 100 percent of the first night will be charged.<br /> All children are welcome. There is no capacity for extra beds in the room.<br /> When booking more than 8 rooms, different policies and additional supplements may apply.  WiFi is available in all areas and is free of charge.  Public parking is possible on site (reservation is not needed) and costs  USD 70 per  day.  Pets are allowed. No extra charges.  No deposit will be charged.  The hotel reserves the right to pre-authorise credit cards prior to arrival. 14.75 % Tax is excluded. US$ 3.50 City tax per night is excluded.",
+      "postalcode": "NY 10002",
+      "latitude": 40.7198257,
+      "longitude": -73.98807,
+      "address1": "107 Rivington Street",
+      "image": "http://aff.bstatic.com/images/hotel/max500/454/45455670.jpg",
+      "allimages": [
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/454/45455670.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/891/89127394.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/891/89127423.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/891/89127505.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/891/89127630.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/451/45165414.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/454/45455655.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/451/45165289.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/451/45165281.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/454/45455551.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/451/45165264.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/454/45457242.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/451/45165254.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/451/45165251.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/216/21671263.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/451/45165282.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/374/37417957.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/451/45165261.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290118.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290119.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290121.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290124.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290125.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290126.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290132.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290134.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290150.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290152.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290154.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290162.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290166.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290167.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290168.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290169.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290173.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290175.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290180.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290183.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290186.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290190.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290256.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "image": "http://aff.bstatic.com/images/hotel/max1024x768/782/78290193.jpg",
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "amenities": [
+        {
+          "amenity": "Minibar",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "Safety Deposit Box",
+          "image": "general.png"
+        },
+        {
+          "amenity": "Pay-per-view Channels",
+          "image": "cable-t-v-service.png"
+        },
+        {
+          "amenity": "Telephone",
+          "image": "phone.png"
+        },
+        {
+          "amenity": "Air conditioning",
+          "image": "in-room-climate-control-air-conditioning.png"
+        },
+        {
+          "amenity": "Hairdryer",
+          "image": "bathtub-or-shower-copy.png"
+        },
+        {
+          "amenity": "Iron",
+          "image": "ironing-board.png"
+        },
+        {
+          "amenity": "Bathrobe",
+          "image": "bathtub-or-shower-copy.png"
+        },
+        {
+          "amenity": "Radio",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "Desk",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "Ironing Facilities",
+          "image": "ironing-board.png"
+        },
+        {
+          "amenity": "Seating Area",
+          "image": "general-hotel-information.png"
+        },
+        {
+          "amenity": "Free toiletries",
+          "image": "bathtub-or-shower-copy.png"
+        },
+        {
+          "amenity": "Toilet",
+          "image": "bathtub-or-shower-copy.png"
+        },
+        {
+          "amenity": "Bathroom",
+          "image": "bathtub-or-shower-copy.png"
+        },
+        {
+          "amenity": "Heating",
+          "image": "in-room-climate-control-air-conditioning.png"
+        },
+        {
+          "amenity": "Cable Channels",
+          "image": "cable-t-v-service.png"
+        },
+        {
+          "amenity": "Bath or Shower",
+          "image": "bathtub-or-shower-copy.png"
+        },
+        {
+          "amenity": "Carpeted",
+          "image": "general-hotel-information.png"
+        },
+        {
+          "amenity": "Laptop safe",
+          "image": "in-room-safe-laptop-compatible.png"
+        },
+        {
+          "amenity": "Flat-screen TV",
+          "image": "cable-t-v-service.png"
+        },
+        {
+          "amenity": "Sofa",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "View",
+          "image": "general-hotel-information.png"
+        },
+        {
+          "amenity": "Wake-up service",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "Alarm clock",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "iPod dock",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "Wardrobe/Closet",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "City view",
+          "image": "general-hotel-information.png"
+        },
+        {
+          "amenity": "Towels",
+          "image": "room-information.png"
+        },
+        {
+          "amenity": "Linen",
+          "image": "premium-bedding.png"
+        }
+      ],
+      "minimumamount": 1686.76,
+      "maximumamount": 2117.47,
+      "checkin": "2017-11-04T00:00:00",
+      "checkout": "2017-11-08T00:00:00",
+      "country": "US",
+      "stateprovince": "NY",
+      "paxguid": "b3735775-d89c-4859-aae2-a6f100f432d6",
+      "defaultroomguid": "5313033f-de3f-45c7-add7-cdeb6f1e4452",
+      "rooms": [
+        {
+          "roomtype": "Double Room with Two Double Beds - Non-refundable",
+          "code": "19178307_91912323_0_0_0",
+          "description": "",
+          "bedtypes": [],
+          "cost": 1792.29,
+          "nightlyrate": [
+            448.0725,
+            448.0725,
+            448.0725,
+            448.0725
+          ],
+          "averagerate": 448.0725,
+          "surchargetotal": 0,
+          "surchargetotalusd": 0,
+          "nightlyrateusd": [
+            355.5,
+            355.5,
+            355.5,
+            355.5
+          ],
+          "averagerateusd": 355.5,
+          "totalbeforetaxusd": 1422,
+          "costusd": 1422,
+          "hotelcurrencycode": "USD",
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/451/45165282.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/374/37417957.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290118.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290125.jpg"
+          ],
+          "isalternative": false,
+          "totalbeforetax": 1792.29,
+          "refundability": "Non Refundable",
+          "cancellationpolicy": "Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged. ",
+          "maxroomoccupancy": 4,
+          "checkin": "0001-01-01T00:00:00",
+          "checkout": "0001-01-01T00:00:00",
+          "ispromotional": false,
+          "type": "hotelroom",
+          "dateorder": "0001-01-01T00:00:00",
+          "guid": "5313033f-de3f-45c7-add7-cdeb6f1e4452",
+          "rank": 0,
+          "penalty": 0,
+          "datasource": "BC",
+          "isavailable": true,
+          "feescollectedbyhoteldaily": 70.5025,
+          "feescollectedbyhoteltotal": 282.01,
+          "feescollectedbyhotel": [
+            {
+              "description": "City tax",
+              "amount": "17.65"
+            },
+            {
+              "description": "Tax",
+              "amount": "264.36"
+            }
+          ]
+        },
+        {
+          "roomtype": "2 DOUBLE BEDS - SMOKING OR NONSMOKING ROOM",
+          "code": "757020_OPAQUE_OPAQUE|77953571-32e0-1c07-1c64-6c66ebfc2338",
+          "description": "2 DOUBLE BEDS - SMOKING OR NONSMOKING ROOM",
+          "bedtypes": [],
+          "cost": 1686.76,
+          "nightlyrate": [
+            336,
+            336,
+            336,
+            336
+          ],
+          "averagerate": 336,
+          "surchargetotal": 342.76,
+          "surchargetotalusd": 271.95,
+          "nightlyrateusd": [
+            266.58,
+            266.58,
+            266.58,
+            266.58
+          ],
+          "averagerateusd": 266.58,
+          "totalbeforetaxusd": 1066.32,
+          "costusd": 1338.27,
+          "hotelcurrencycode": "USD",
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/454/45455670.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/216/21671263.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/374/37417957.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165251.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165254.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165261.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165264.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165281.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165282.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165289.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165414.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/454/45455551.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/454/45455655.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/454/45457242.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290118.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290119.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290121.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290124.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290125.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290126.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290132.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290134.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290150.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290152.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290154.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290162.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290166.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290167.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290168.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290169.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290173.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290175.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290180.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290183.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290186.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290190.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290193.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290256.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/891/89127394.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/891/89127423.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/891/89127505.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/891/89127630.jpg"
+          ],
+          "isalternative": true,
+          "totalbeforetax": 1344,
+          "refundability": "Non Refundable",
+          "cancellationpolicy": "All rooms will accommodate up to 2 people. Requests for bed types (King, Queen, 2 Doubles, etc.) or other request(including preferences for smoking or non-smoking rooms) should be requested through your confirmed hotel and cannot be guaranteed.",
+          "maxroomoccupancy": 2,
+          "checkin": "0001-01-01T00:00:00",
+          "checkout": "0001-01-01T00:00:00",
+          "ispromotional": true,
+          "type": "hotelroom",
+          "dateorder": "0001-01-01T00:00:00",
+          "guid": "54ed5a26-78f0-4970-8faa-98a49e2e5429",
+          "rank": 0,
+          "penalty": 0,
+          "datasource": "PL",
+          "isavailable": true,
+          "feescollectedbyhoteldaily": 0,
+          "feescollectedbyhoteltotal": 0
+        },
+        {
+          "roomtype": "SMOKING OR NONSMOKING CORNER STUDIO",
+          "code": "757020_OPAQUE_OPAQUE|accb64f0-d4af-78fd-c65d-8657e988459b",
+          "description": "SMOKING OR NONSMOKING CORNER STUDIO",
+          "bedtypes": [],
+          "cost": 1783.4,
+          "nightlyrate": [
+            357,
+            357,
+            357,
+            357
+          ],
+          "averagerate": 357,
+          "surchargetotal": 355.4,
+          "surchargetotalusd": 281.97,
+          "nightlyrateusd": [
+            283.24,
+            283.24,
+            283.24,
+            283.24
+          ],
+          "averagerateusd": 283.24,
+          "totalbeforetaxusd": 1132.96,
+          "costusd": 1414.95,
+          "hotelcurrencycode": "USD",
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/454/45455670.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/216/21671263.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/374/37417957.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165251.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165254.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165261.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165264.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165281.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165282.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165289.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165414.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/454/45455551.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/454/45455655.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/454/45457242.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290118.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290119.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290121.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290124.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290125.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290126.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290132.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290134.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290150.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290152.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290154.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290162.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290166.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290167.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290168.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290169.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290173.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290175.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290180.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290183.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290186.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290190.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290193.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290256.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/891/89127394.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/891/89127423.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/891/89127505.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/891/89127630.jpg"
+          ],
+          "isalternative": true,
+          "totalbeforetax": 1428,
+          "refundability": "Non Refundable",
+          "cancellationpolicy": "All rooms will accommodate up to 2 people. Requests for bed types (King, Queen, 2 Doubles, etc.) or other request(including preferences for smoking or non-smoking rooms) should be requested through your confirmed hotel and cannot be guaranteed.",
+          "maxroomoccupancy": 2,
+          "checkin": "0001-01-01T00:00:00",
+          "checkout": "0001-01-01T00:00:00",
+          "ispromotional": true,
+          "type": "hotelroom",
+          "dateorder": "0001-01-01T00:00:00",
+          "guid": "211181d6-c9ab-4647-998f-5f94de214108",
+          "rank": 0,
+          "penalty": 0,
+          "datasource": "PL",
+          "isavailable": true,
+          "feescollectedbyhoteldaily": 0,
+          "feescollectedbyhoteltotal": 0
+        },
+        {
+          "roomtype": "King Studio - Non-refundable",
+          "code": "19178304_91912323_2_0_0",
+          "description": "",
+          "bedtypes": [],
+          "cost": 1905.72,
+          "nightlyrate": [
+            476.43,
+            476.43,
+            476.43,
+            476.43
+          ],
+          "averagerate": 476.43,
+          "surchargetotal": 0,
+          "surchargetotalusd": 0,
+          "nightlyrateusd": [
+            378,
+            378,
+            378,
+            378
+          ],
+          "averagerateusd": 378,
+          "totalbeforetaxusd": 1512,
+          "costusd": 1512,
+          "hotelcurrencycode": "USD",
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/451/45165414.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165254.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165282.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/374/37417957.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290193.jpg"
+          ],
+          "isalternative": true,
+          "totalbeforetax": 1905.72,
+          "refundability": "Non Refundable",
+          "cancellationpolicy": "Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged. ",
+          "maxroomoccupancy": 2,
+          "checkin": "0001-01-01T00:00:00",
+          "checkout": "0001-01-01T00:00:00",
+          "ispromotional": false,
+          "type": "hotelroom",
+          "dateorder": "0001-01-01T00:00:00",
+          "guid": "095a224a-8f17-414d-b0a0-1b6fd143ce3a",
+          "rank": 0,
+          "penalty": 0,
+          "datasource": "BC",
+          "isavailable": true,
+          "feescollectedbyhoteldaily": 74.685,
+          "feescollectedbyhoteltotal": 298.74,
+          "feescollectedbyhotel": [
+            {
+              "description": "Tax",
+              "amount": "281.09"
+            },
+            {
+              "description": "City tax",
+              "amount": "17.65"
+            }
+          ]
+        },
+        {
+          "roomtype": "Double Room with Two Double Beds",
+          "code": "19178307_99282839_0_0_0",
+          "description": "",
+          "bedtypes": [],
+          "cost": 1991.43,
+          "nightlyrate": [
+            497.8575,
+            497.8575,
+            497.8575,
+            497.8575
+          ],
+          "averagerate": 497.8575,
+          "surchargetotal": 0,
+          "surchargetotalusd": 0,
+          "nightlyrateusd": [
+            395,
+            395,
+            395,
+            395
+          ],
+          "averagerateusd": 395,
+          "totalbeforetaxusd": 1580,
+          "costusd": 1580,
+          "hotelcurrencycode": "USD",
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/451/45165282.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/374/37417957.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290118.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290125.jpg"
+          ],
+          "isalternative": true,
+          "totalbeforetax": 1991.43,
+          "refundability": "Refundable",
+          "cancellationpolicy": "If cancelled or modified up to 2 days before date of arrival,  no fee will be charged. If cancelled or modified later or in case of no-show, 100 percent of the first night will be charged.\n",
+          "maxroomoccupancy": 4,
+          "checkin": "0001-01-01T00:00:00",
+          "checkout": "0001-01-01T00:00:00",
+          "ispromotional": false,
+          "type": "hotelroom",
+          "dateorder": "0001-01-01T00:00:00",
+          "guid": "ece45806-3bdb-4013-89f0-c4703f124e28",
+          "rank": 0,
+          "penalty": 0,
+          "datasource": "BC",
+          "isavailable": true,
+          "feescollectedbyhoteldaily": 77.8475,
+          "feescollectedbyhoteltotal": 311.39,
+          "feescollectedbyhotel": [
+            {
+              "description": "City tax",
+              "amount": "17.65"
+            },
+            {
+              "description": "Tax",
+              "amount": "293.74"
+            }
+          ]
+        },
+        {
+          "roomtype": "King Studio",
+          "code": "19178304_99282839_2_0_0",
+          "description": "",
+          "bedtypes": [],
+          "cost": 2117.47,
+          "nightlyrate": [
+            529.3675,
+            529.3675,
+            529.3675,
+            529.3675
+          ],
+          "averagerate": 529.3675,
+          "surchargetotal": 0,
+          "surchargetotalusd": 0,
+          "nightlyrateusd": [
+            420,
+            420,
+            420,
+            420
+          ],
+          "averagerateusd": 420,
+          "totalbeforetaxusd": 1680,
+          "costusd": 1680,
+          "hotelcurrencycode": "USD",
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/451/45165414.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165254.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/451/45165282.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/374/37417957.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/782/78290193.jpg"
+          ],
+          "isalternative": true,
+          "totalbeforetax": 2117.47,
+          "refundability": "Refundable",
+          "cancellationpolicy": "If cancelled or modified up to 2 days before date of arrival,  no fee will be charged. If cancelled or modified later or in case of no-show, 100 percent of the first night will be charged.\n",
+          "maxroomoccupancy": 2,
+          "checkin": "0001-01-01T00:00:00",
+          "checkout": "0001-01-01T00:00:00",
+          "ispromotional": false,
+          "type": "hotelroom",
+          "dateorder": "0001-01-01T00:00:00",
+          "guid": "27665c0a-6e47-4772-92e6-f051c64585ea",
+          "rank": 0,
+          "penalty": 0,
+          "datasource": "BC",
+          "isavailable": true,
+          "feescollectedbyhoteldaily": 82.495,
+          "feescollectedbyhoteltotal": 329.98,
+          "feescollectedbyhotel": [
+            {
+              "description": "City tax",
+              "amount": "17.65"
+            },
+            {
+              "description": "Tax",
+              "amount": "312.33"
+            }
+          ]
+        }
+      ],
+      "isalternative": false,
+      "hasalternative": true,
+      "occupants": [
+        {
+          "id": "b3735775-d89c-4859-aae2-a6f100f432d6"
+        }
+      ],
+      "isaddedorupdatedbychangemanagement": false,
+      "nodeid": 7,
+      "alternativehotel": {
+        "paymentprocessingstate": "UNPAID",
+        "hotelcode": "700256870",
+        "cityname": "New York City",
+        "hotelname": "Hotel On Rivington",
+        "starrating": 4,
+        "shortdescription": "<p><b>Age Restriction Disclosure:</b> <br />The reservation holder must be 21 years of age or older.</p><p><b>Guarantee Policy:</b> <br />Reservation is guaranteed for arrival on the confirmed check-in date only. If you don't check-in to the hotel on the first day of your reservation and you do not alert the hotel in advance the remaining portion of your reservation will be canceled and you will not be entitled to a refund.</p><p><b>Room Charge Disclosure:</b> <br />Your credit card is charged the total cost at time of purchase. Prices and room availability are not guaranteed until full payment is received.</p><p><b>Room Occupancy Disclosure:</b> <br />All rooms accommodate two guests. Special needs, bed type or other requests are at the discretion of the confirmed hotel. Please contact the hotel directly for availability.</p><p><b>Check-in Policy:</b> <br />The reservation holder must present a valid photo ID and credit card at check-in.  The credit card is required for any additional hotel specific service fees or incidental charges or fees that may be charged by the hotel to the customer at checkout. These charges may be mandatory (e.g., resort fees) or optional (parking, phone calls or mini-bar charges) and are not included in the room rate.</p><p><b>Cancellation Policy:</b> <br />For the room type and rate that you've selected, you are not allowed to change or cancel your reservation. If you cancel your room, you will still be charged for the full reservation amount.</p><p><b>Pets Policy:</b> <br />The Rivingt welcomes pets. Pet waiver required up checking in.</p>",
+        "postalcode": "10002",
+        "latitude": 40.7199936,
+        "longitude": -73.98798,
+        "address1": "107 Rivington Street",
+        "image": "http://secure.rezserver.com/img/thumbs/hotel/57/5706905.jpg",
+        "allimages": [],
+        "amenities": [
+          {
+            "amenityid": "2",
+            "amenity": "Business Center",
+            "image": "business-meetings.png"
+          },
+          {
+            "amenityid": "9",
+            "amenity": "Fitness Center or Spa",
+            "image": "fitness-center.png"
+          },
+          {
+            "amenityid": "12",
+            "amenity": "No Smoking Rooms/Facilities",
+            "image": "non-smoking-rooms.png"
+          },
+          {
+            "amenityid": "14",
+            "amenity": "Restaurant",
+            "image": "restaurant.png"
+          }
+        ],
+        "minimumamount": 1686.76,
+        "maximumamount": 1783.4,
+        "checkin": "2017-11-04T00:00:00",
+        "checkout": "2017-11-08T12:00:00",
+        "country": "US",
+        "stateprovince": "NY",
+        "paxguid": "00000000-0000-0000-0000-000000000000",
+        "defaultroomguid": "54ed5a26-78f0-4970-8faa-98a49e2e5429",
+        "rooms": [
+          {
+            "roomtype": "2 DOUBLE BEDS - SMOKING OR NONSMOKING ROOM",
+            "code": "757020_OPAQUE_OPAQUE|77953571-32e0-1c07-1c64-6c66ebfc2338",
+            "description": "2 DOUBLE BEDS - SMOKING OR NONSMOKING ROOM",
+            "bedtypes": [],
+            "cost": 1686.76,
+            "nightlyrate": [
+              336,
+              336,
+              336,
+              336
+            ],
+            "averagerate": 336,
+            "surchargetotal": 342.76,
+            "surchargetotalusd": 271.95,
+            "nightlyrateusd": [
+              266.58,
+              266.58,
+              266.58,
+              266.58
+            ],
+            "averagerateusd": 266.58,
+            "totalbeforetaxusd": 1066.32,
+            "costusd": 1338.27,
+            "hotelcurrencycode": "USD",
+            "images": [
+              "http://aff.bstatic.com/images/hotel/max500/454/45455670.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/216/21671263.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/374/37417957.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165251.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165254.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165261.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165264.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165281.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165282.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165289.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165414.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/454/45455551.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/454/45455655.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/454/45457242.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290118.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290119.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290121.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290124.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290125.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290126.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290132.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290134.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290150.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290152.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290154.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290162.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290166.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290167.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290168.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290169.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290173.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290175.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290180.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290183.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290186.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290190.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290193.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290256.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/891/89127394.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/891/89127423.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/891/89127505.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/891/89127630.jpg"
+            ],
+            "isalternative": false,
+            "totalbeforetax": 1344,
+            "refundability": "Non Refundable",
+            "cancellationpolicy": "All rooms will accommodate up to 2 people. Requests for bed types (King, Queen, 2 Doubles, etc.) or other request(including preferences for smoking or non-smoking rooms) should be requested through your confirmed hotel and cannot be guaranteed.",
+            "maxroomoccupancy": 2,
+            "checkin": "0001-01-01T00:00:00",
+            "checkout": "0001-01-01T00:00:00",
+            "ispromotional": true,
+            "type": "hotelroom",
+            "dateorder": "0001-01-01T00:00:00",
+            "guid": "54ed5a26-78f0-4970-8faa-98a49e2e5429",
+            "rank": 0,
+            "penalty": 0,
+            "datasource": "PL",
+            "isavailable": true,
+            "feescollectedbyhoteldaily": 0,
+            "feescollectedbyhoteltotal": 0
+          },
+          {
+            "roomtype": "SMOKING OR NONSMOKING CORNER STUDIO",
+            "code": "757020_OPAQUE_OPAQUE|accb64f0-d4af-78fd-c65d-8657e988459b",
+            "description": "SMOKING OR NONSMOKING CORNER STUDIO",
+            "bedtypes": [],
+            "cost": 1783.4,
+            "nightlyrate": [
+              357,
+              357,
+              357,
+              357
+            ],
+            "averagerate": 357,
+            "surchargetotal": 355.4,
+            "surchargetotalusd": 281.97,
+            "nightlyrateusd": [
+              283.24,
+              283.24,
+              283.24,
+              283.24
+            ],
+            "averagerateusd": 283.24,
+            "totalbeforetaxusd": 1132.96,
+            "costusd": 1414.95,
+            "hotelcurrencycode": "USD",
+            "images": [
+              "http://aff.bstatic.com/images/hotel/max500/454/45455670.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/216/21671263.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/374/37417957.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165251.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165254.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165261.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165264.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165281.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165282.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165289.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/451/45165414.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/454/45455551.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/454/45455655.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/454/45457242.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290118.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290119.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290121.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290124.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290125.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290126.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290132.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290134.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290150.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290152.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290154.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290162.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290166.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290167.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290168.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290169.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290173.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290175.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290180.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290183.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290186.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290190.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290193.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/782/78290256.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/891/89127394.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/891/89127423.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/891/89127505.jpg",
+              "http://aff.bstatic.com/images/hotel/max500/891/89127630.jpg"
+            ],
+            "isalternative": true,
+            "totalbeforetax": 1428,
+            "refundability": "Non Refundable",
+            "cancellationpolicy": "All rooms will accommodate up to 2 people. Requests for bed types (King, Queen, 2 Doubles, etc.) or other request(including preferences for smoking or non-smoking rooms) should be requested through your confirmed hotel and cannot be guaranteed.",
+            "maxroomoccupancy": 2,
+            "checkin": "0001-01-01T00:00:00",
+            "checkout": "0001-01-01T00:00:00",
+            "ispromotional": true,
+            "type": "hotelroom",
+            "dateorder": "0001-01-01T00:00:00",
+            "guid": "211181d6-c9ab-4647-998f-5f94de214108",
+            "rank": 0,
+            "penalty": 0,
+            "datasource": "PL",
+            "isavailable": true,
+            "feescollectedbyhoteldaily": 0,
+            "feescollectedbyhoteltotal": 0
+          }
+        ],
+        "isalternative": false,
+        "hasalternative": true,
+        "occupants": [
+          {
+            "id": "00000000-0000-0000-0000-000000000000"
+          }
+        ],
+        "isaddedorupdatedbychangemanagement": false,
+        "nodeid": 0,
+        "ispromotional": true,
+        "type": "hotel",
+        "dateorder": "2017-11-04T00:00:00",
+        "guid": "28afa0db-7957-4ff4-a561-1d4413c2e38f",
+        "rank": 0,
+        "penalty": 0,
+        "currency": "CAD",
+        "datasource": "PL",
+        "isavailable": false
+      },
+      "ispromotional": false,
+      "type": "hotel",
+      "dateorder": "2017-11-04T00:00:00",
+      "guid": "01ec862b-ad50-42dc-96db-9664f864db94",
+      "rank": 1207942.3311765300106511751938,
+      "penalty": 0,
+      "currency": "CAD",
+      "datasource": "BC",
+      "isavailable": false
+    }
+  },
+  "conversation": [
+    {
+      "message": "fly me and raydevtwo to nyc on nov 4 and stay for 4 nights",
+      "participant": "User",
+      "messagedatetime": "2017-10-23T19:05:49"
+    }
+  ],
+  "currency": "CAD",
+  "isnetworkupdated": true,
+  "timedurations": {
+    "content": "00:00:05.1873780",
+    "ranking": "00:00:01.4794681",
+    "api": "00:00:11.3190965",
+    "parser": "00:00:00.9017001",
+    "scheduler": "00:00:09.2148531"
+  }
+}
